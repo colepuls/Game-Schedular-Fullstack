@@ -1,32 +1,46 @@
-# NBA Game Manager
+# 🏀 NBA Game Manager
 
-Full‑stack demo that lets an admin
+A full‑stack app that lets an admin:
 
-1. **Schedule** a game  
-2. **Assign** teams to that game  
+1. **Schedule** games  
+2. **Assign** teams  
 3. **Record** player performance  
 4. **Display** box scores  
 
-Tech stack: **React + Tailwind** · **Node/Express** · **MySQL**
+**Tech Stack:** React + Tailwind · Node/Express · MySQL
 
 ---
 
-## Local Setup
+## ⚙️ Local Setup
 
-### Prerequisites
-| Tool | Version |
-|------|---------|
-| Node | ≥ 16 |
-| npm  | ≥ 9  |
-| MySQL| ≥ 8  |
+### Prerequisites
 
-#### Clone repository
+| Tool   | Version |
+|--------|---------|
+| Node   | ≥ 16    |
+| npm    | ≥ 9     |
+| MySQL  | ≥ 8     |
+
+### Clone the Repository
+
+```bash
 git clone https://github.com/colepuls/Game-Schedular.git
+```
 
-##### Launch steps
+### Start the App
+
+**Backend:**
+
+```bash
 cd backend
+npm install
 npm run dev
+```
 
-cd ..
-cd frontend
+**Frontend:**
+
+```bash
+cd ../frontend
+npm install
 npm start
+```
