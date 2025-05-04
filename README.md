@@ -1,5 +1,7 @@
 # 🏀 NBA Game Manager
 
+Database project for CS3380 @ Mizzou
+
 A full‑stack app that lets an admin:
 
 1. **Schedule** games  
